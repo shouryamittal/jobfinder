@@ -1,0 +1,63 @@
+@import "./_jobCard.css";
+
+.dashboardRow {
+    margin-top: 30px !important;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.userGreeting {
+    font-size: 42px;
+    line-height: 44px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.postJobText {
+    font-size: 20px;
+    line-height: 22px;
+    border-bottom: 1px solid var(--site-color-border);
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+.formContainer {
+    border: 1px solid var(--site-color-border);
+    padding: 15px;
+    height: 480px;
+    margin-bottom: 20px;
+}
+.row {
+    margin:0;
+}
+.jobsList {
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.jobListCaption {
+    font-size: 20px;
+    line-height: 22px;
+    border-bottom: 1px solid var(--site-color-border);
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+.skillsContainer {
+    height: 100px;
+    overflow-y: scroll;
+    margin: 15px 0;
+    border: 1px solid var(--site-color-border);
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill {
+    background-color: var(--site-color-border);
+    padding: 3px 5px;
+    border-radius: 6px;
+    margin: 0 5px 5px 0;
+    height: 28px;
+    cursor: pointer;
+}
+.selectedSkill {
+    background-color: var(--site-color-text-success);
+    color: var(--site-color-white);
+}

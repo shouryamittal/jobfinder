@@ -1,0 +1,13 @@
+.login {
+    border: 1px solid var(--site-color-border);
+    padding: 15px;
+}
+.login .textContent {
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--site-color-text-light);   
+    margin-bottom: 15px;
+}
+.login .registrationOptions {
+    margin-bottom: 15px;
+}

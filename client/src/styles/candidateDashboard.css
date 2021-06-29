@@ -1,0 +1,26 @@
+@import "./_searchBar.css";
+
+.tabsContainer {
+    margin-top: 20px;
+}
+.infoContainer{
+    margin-top: 10px;
+}
+.appliedTxt {
+    color: var(--site-color-text-success);
+}
+.jobText {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.skills { 
+    margin-bottom: 10px;
+}
+.skills div{
+    background-color: var(--site-color-border);
+    padding: 5px;
+    border-radius: 6px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}

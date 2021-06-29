@@ -1,0 +1,12 @@
+.navbar {
+    height: var(--site-header-height);
+    padding: 0 15px;
+    background-color: var(--site-color-theme);
+}
+.navbar li {
+    color: var(--site-color-white);
+}
+.headerItem{
+    color: var(--site-color-white);
+    cursor: pointer;
+}

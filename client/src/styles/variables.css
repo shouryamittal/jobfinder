@@ -1,0 +1,13 @@
+:root {
+    --site-color-theme:#387ed1;
+    --site-color-white: #fff;
+    --site-color-border: #efefef;
+    --site-color-text-light: #b8b8b8;
+    --site-color-text-error: #e71717;
+    --site-color-text-success: rgb(16, 170, 75);
+    
+    
+    /*dimension*/
+    --site-header-height:60px;
+    --site-footer-height: 60px;
+}

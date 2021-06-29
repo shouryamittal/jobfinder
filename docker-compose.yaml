@@ -1,0 +1,44 @@
+version: "3"
+services:
+    server:
+        build:
+            context: ./server
+            dockerfile: Dockerfile
+        ports:
+            - "5000:5000"
+        depends_on:
+            - mysql
+        networks: 
+            - jobfinder
+    client:
+        build:
+            context: ./client
+            dockerfile: Dockerfile
+        ports:
+            - "3000:3000"
+        depends_on:
+            - server
+        networks: 
+            - jobfinder
+    mysql:
+        image: mysql
+        restart: always
+        env_file: ./server/.env
+        environment: 
+            MYSQL_ROOT_PASSWORD: $DB_PASSWORD
+            MYSQL_DATABASE: 'jobportal'
+            MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+        ports:
+            - "8080:33060"
+        volumes:
+            - db-data:/var/lib/mysql 
+        networks: 
+            - jobfinder
+
+networks:
+    jobfinder:
+        driver: bridge
+volumes:
+    db-data:
+        driver: local
+

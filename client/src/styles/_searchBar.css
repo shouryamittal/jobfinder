@@ -1,0 +1,12 @@
+.searchBar {
+    margin-top: 30px;
+}
+.searchInput {
+    display: flex;
+}
+.searchInputBar{
+    flex: 5 !important;
+}
+select{
+    flex:1 !important
+}

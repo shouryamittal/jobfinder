@@ -1,0 +1,14 @@
+.singup {
+    padding: 15px;
+    border: 1px solid var(--site-color-border);
+    margin-bottom: 20px;
+}
+.singup .textContent {
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--site-color-text-light);   
+    margin-bottom: 15px;
+}
+.singup .registrationOptions {
+    margin-bottom: 15px;
+}
